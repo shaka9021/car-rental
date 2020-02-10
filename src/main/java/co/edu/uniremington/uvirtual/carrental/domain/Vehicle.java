@@ -24,4 +24,9 @@ public abstract class Vehicle {
         return plate;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%s %s - %s", getClass().getSimpleName(), plate, base);
+    }
+
 }

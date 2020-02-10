@@ -23,4 +23,8 @@ public class Van extends Vehicle {
         return pma;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%s - %s", super.toString(), pma);
+    }
 }

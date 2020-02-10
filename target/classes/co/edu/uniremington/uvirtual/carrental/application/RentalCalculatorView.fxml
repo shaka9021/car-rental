@@ -56,7 +56,7 @@
         </GridPane>
         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
           <children>
-            <Button fx:id="calculator" mnemonicParsing="false" text="Calcular" />
+            <Button fx:id="calculator" mnemonicParsing="false" text="Button" />
           </children>
         </HBox>
       </children>

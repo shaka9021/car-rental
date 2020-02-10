@@ -14,4 +14,5 @@ public class Minibus extends Car {
     public double rental(long days) {
         return super.rental(days) + 2;
     }
+
 }
